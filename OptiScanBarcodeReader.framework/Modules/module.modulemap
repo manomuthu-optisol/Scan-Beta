@@ -1,0 +1,11 @@
+framework module OptiScanBarcodeReader {
+  umbrella header "OptiScanBarcodeReader.h"
+
+  export *
+  module * { export * }
+}
+
+module OptiScanBarcodeReader.Swift {
+    header "OptiScanBarcodeReader-Swift.h"
+    requires objc
+}
